@@ -203,7 +203,7 @@ bar {
   height 24
 	position bottom
 #	tray_output primary
-	status_command bumblebee-status -m cpu load memory disk:root disk:home nic pulseout pulsein date time -p nic.exclude="en*,lo,virbr,docker,vboxnet,veth,br,.*:avahi" root.path="/" home.path="/home/" date.locale="de_DE.UTF-8" time.locale="de_DE.UTF-8" -t nord-powerline
+	status_command bumblebee-status -m cpu load memory disk:root disk:home nic pulseout pulsein date time -p nic.exclude="en*,lo,virbr,docker,vboxnet,veth,br,.*:avahi" root.path="/" home.path="/home/" date.locale="de_DE.UTF-8" time.locale="de_DE.UTF-8" -t mz-powerline
 #	status_command ~/.local/bin/bumblebee-status -m cpu memory nic date time pasink pasource -t solarized-powerline
 }
 
