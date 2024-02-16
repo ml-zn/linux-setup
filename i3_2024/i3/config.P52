@@ -203,7 +203,7 @@ bar {
     height 20
 	position bottom
 #	tray_output primary
-	status_command bumblebee-status -m cpu nic pulseout pulsein date time battery -p nic.exclude="en*,lo,lxc*,docker,vboxnet,veth,br,.*:avahi" date.locale="de_DE.UTF-8" time.locale="de_DE.UTF-8" battery.showpowerconsumption=true -t mz-powerline
+	status_command bumblebee-status -m cpu sensors nvidiagpu nic pulseout pulsein date time battery-upower caffeine -p nic.exclude="en*,lo,lxc*,docker,vboxnet,veth,br,.*:avahi" date.locale="de_DE.UTF-8" time.locale="de_DE.UTF-8" battery.showpowerconsumption=true -t mz-powerline
 #	status_command ~/.local/bin/bumblebee-status -m cpu memory nic date time pasink pasource -t solarized-powerline
 }
 
