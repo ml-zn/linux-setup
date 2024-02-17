@@ -207,6 +207,9 @@ bar {
 #	status_command ~/.local/bin/bumblebee-status -m cpu memory nic date time pasink pasource -t solarized-powerline
 }
 
+for_window [all] title_window_icon padding 3px
+
+exec --no-startup-id "xfsettingsd &" 
 exec --no-startup-id "picom -f -D 15 -i 0.9 --corner-radius 10 &"
 bindsym $mod+Ctrl+Shift+l exec "~/.config/i3/i3lock-multi.sh"
 exec "feh --bg-scale --zoom fill ~/.config/i3/backgrounds/desktop-background"
