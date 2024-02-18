@@ -1,13 +1,18 @@
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_frappe.toml"
+]
+
 #shell = { program = "wsl", args = ["-d", "Debian"]}
 shell = { program = "/bin/zsh" }
 # working_directory = "/home/michaelz"
 
 
 [window]
-title = "Alacritty"
+title = "Alacritty - Dev"
 dynamic_title = false
 padding = {x = 10, y = 10}
 decorations = "none"
+#decorations = "full"
 startup_mode = "Maximized"
 opacity = 0.9
 blur = true
@@ -19,4 +24,5 @@ bold = { family = "Jetbrains Mono Nerd Font",style = "Bold"}
 italic = { family = "Jetbrains Mono Nerd Font",style = "Italic"}
 bold_italic = { family = "Jetbrains Mono Nerd Font",style = "Bold Italic"}
 
-size = 12.0
+size = 9.0
+
