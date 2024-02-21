@@ -1,0 +1,11 @@
+[user]
+	name = Michael Zimmermann
+	email = michael@ml-zn.de
+[init]
+	defaultBranch = main
+[diff]
+	tool = vimdiff
+[core]
+	editor = vim
+[alias]
+	adgo = log --all --decorate --graph --oneline
